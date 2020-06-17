@@ -1,0 +1,325 @@
+/*# sourceMappingURL=style.css.map */
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 800px;
+  height: 650px;
+  border: 2px solid black;
+  position: relative;
+  top: -50px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+}
+
+.hb {
+  width: 85px;
+  height: 55px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 25px;
+  background-color: #1E90FF;
+  transition: all 0.5s ease;
+}
+.hb:hover {
+  background-color: white;
+  color: #1E90FF;
+  border: 1px solid #1E90FF;
+}
+
+.h {
+  width: 85px;
+  height: 55px;
+  border: 1px solid transparent;
+  position: absolute;
+  top: 50px;
+  left: 350px;
+  text-align: center;
+  color: #1E90FF;
+  font-size: 25px;
+  line-height: 50px;
+  transition: width 0.75s ease-in-out;
+}
+.h:hover {
+  background-color: white;
+  border-top: 3px solid #1E90FF;
+  border-bottom: 3px solid #1E90FF;
+  width: 100px;
+}
+
+.ht {
+  width: 85px;
+  height: 55px;
+  border: 1px solid #1E90FF;
+  border-radius: 4px;
+  position: absolute;
+  top: 50px;
+  left: 590px;
+  text-align: center;
+  font-size: 25px;
+  color: #1E90FF;
+  line-height: 50px;
+  transition: all 0.5s ease;
+}
+.ht:hover {
+  background-color: #1E90FF;
+  color: white;
+  border: 1px solid black;
+  border: 1px solid transparent;
+}
+
+.humb1 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  position: relative;
+  top: 150px;
+  left: 100px;
+}
+.humb1:hover {
+  background-color: black;
+}
+.humb1:hover.b1 {
+  transform: rotate(-45deg) translate(-12px, 20px);
+  background-color: white;
+  left: 0px;
+  border: 1px solid white;
+}
+.humb1:hover.b2 {
+  opacity: 0;
+  border: 1px solid white;
+}
+.humb1:hover.b3 {
+  transform: rotate(45deg) translate(-10px, -20px);
+  background-color: white;
+  left: 0px;
+  border: 1px solid white;
+}
+
+.b1 {
+  width: 65px;
+  height: 10px;
+  border: 1px solid black;
+  background-color: black;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  margin: 10px;
+}
+
+.b2 {
+  width: 65px;
+  height: 10px;
+  border: 1px solid black;
+  background-color: black;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  margin: 10px;
+}
+
+.b3 {
+  width: 65px;
+  height: 10px;
+  border: 1px solid black;
+  position: relative;
+  top: 10px;
+  left: 5px;
+  margin: 10px;
+  background-color: black;
+}
+
+.humb2 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  position: relative;
+  top: 150px;
+  left: 250px;
+}
+.humb2:hover {
+  background-color: black;
+}
+.humb2:hover.b1 {
+  transform: rotate(-45deg) translate(-12px, 1px);
+  background-color: white;
+  left: 0px;
+  width: 45px;
+  height: 10px;
+  border: 1px solid white;
+}
+.humb2:hover.b2 {
+  background-color: white;
+  border: 1px solid white;
+}
+.humb2:hover.b3 {
+  transform: rotate(45deg) translate(-10px, -1px);
+  background-color: white;
+  left: 0px;
+  width: 45px;
+  height: 10px;
+  border: 1px solid white;
+}
+
+.humb3 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  position: relative;
+  top: 150px;
+  left: 385px;
+}
+.humb3:hover {
+  background-color: black;
+}
+.humb3:hover.b1 {
+  transform: rotate(-45deg) translate(-12px, 20px);
+  background-color: white;
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  border: 1px solid white;
+  width: 55px;
+  height: 10px;
+}
+.humb3:hover.b3 {
+  transform: rotate(45deg) translate(-10px, -20px);
+  background-color: white;
+  position: absolute;
+  top: 52px;
+  left: 10px;
+  border: 1px solid white;
+  width: 55px;
+  height: 10px;
+}
+.humb3:hover.b2 {
+  /* opacity: 0; */
+  position: absolute;
+  top: 1px;
+  left: 2px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 5px solid white;
+  background-color: black;
+}
+
+.kitty1 {
+  width: 200px;
+  height: 240px;
+  border: 1px solid black;
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  overflow: hidden;
+}
+.kitty1 > img {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0.75) rotate(0);
+  transition: 600ms;
+}
+.kitty1:hover > img {
+  transform: translate(-50%, -50%) scale(1) rotate(10deg);
+}
+
+.kitty2 {
+  width: 200px;
+  height: 240px;
+  border: 1px solid black;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  overflow: hidden;
+}
+.kitty2 > img {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0.75) rotate(0);
+  transition: 1200ms;
+}
+.kitty2:hover > img {
+  transform: translate(-50%, -50%) scale(1) rotate(10deg);
+}
+
+.kitty2 > h3 {
+  position: absolute;
+  background-color: #fff;
+  right: 0px;
+  bottom: 0;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%, 8% 50%);
+  transition: 600ms;
+  transition-delay: 200ms;
+}
+.kitty2 > h3:hover > h3 {
+  right: -200px;
+}
+
+.kitty3 {
+  width: 200px;
+  height: 240px;
+  border: 1px solid black;
+  position: absolute;
+  top: 300px;
+  left: 550px;
+  overflow: hidden;
+}
+.kitty3 > img {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0.75) rotate(0);
+  transition: 1200ms;
+}
+.kitty3:hover > img {
+  transform: translate(-50%, -50%) scale(1) rotate(10deg);
+}
+
+.kitty3 > h3 {
+  position: absolute;
+  background-color: #fff;
+  right: 0px;
+  bottom: 0;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%, 8% 50%);
+  transition: 600ms;
+  transition-delay: 200ms;
+}
+.kitty3 > h3:hover > h3 {
+  right: -200px;
+}
+.kitty3 > h3 > h2 {
+  position: absolute;
+  background-color: pink;
+  right: 400px;
+  bottom: 150px;
+  border-radius: 50%;
+  padding: 1rem 2rem;
+  font-size: 20px;
+  transition: 600ms;
+  transition-delay: 200ms;
+}
+.kitty3 > h3:hover > h2 {
+  right: 110px;
+  bottom: 175px;
+}
+
+/*# sourceMappingURL=style.css.map */
